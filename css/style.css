@@ -1,22 +1,27 @@
 
 
-@media screen and (max-device-width: 360px) {
+@media screen and (max-device-width: 800px) {
 
     h1 {
         font-size: 8vw;
     }
 
+    tr, td, th {
+        display: block;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    form {
+        max-width: 100%;
+    }
 
 } /* END */
 
 
 
-
-
-body {
-    margin-top: 4px;
-    margin-bottom: 4px;
-}
 
 h1 {
     text-align: center;
@@ -26,16 +31,8 @@ h1 {
 p {
     font-size: 1em;
     display: block;
-}
-
-#p1 {
-    background-color: blue;
-}
-#p2 {
-    background-color: white;
-}
-#p3 {
-    background-color: red;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
 }
 
 header {
@@ -48,9 +45,10 @@ header {
 }
 
 form {
+    display: block;
     border: 2px solid black;
     padding: 10px;
-    width: 20%;
+    max-width: 20%;
 }
 
 form h3 {
@@ -62,11 +60,8 @@ form input {
 }
 
 table {
+    text-align: center;
     border: 2px solid black;
-}
-
-td, th {
-    border: 1px solid #686868;
 }
 
 th {
