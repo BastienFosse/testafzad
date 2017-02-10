@@ -13,7 +13,7 @@
 
 
 
-* {
+body {
     margin-top: 4px;
     margin-bottom: 4px;
 }
@@ -61,3 +61,14 @@ form input {
     margin: 5px;
 }
 
+table {
+    border: 2px solid black;
+}
+
+td, th {
+    border: 1px solid #686868;
+}
+
+th {
+    background-color: silver;
+}
