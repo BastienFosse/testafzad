@@ -4,7 +4,7 @@
 
 h1 {
     text-align: center;
-     font-size: 8vw;
+    font-size: 8vw;
 }
 
 p {
@@ -48,8 +48,10 @@ form input {
 
 
 
+} /* END */
 
-}
+
+
 
 
 * {
@@ -59,7 +61,7 @@ form input {
 
 h1 {
     text-align: center;
-     font-size: 8vw;
+    font-size: 2.5em;
 }
 
 p {
