@@ -17,12 +17,9 @@ form {
     width: 100%;
 }
 
-form h3 {
-    text-align: center;
-}
-
 form input {
-    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 
