@@ -1,31 +1,10 @@
 
 
-@media screen and (max-device-width: 800px) {
-
-    h1 {
-        font-size: 8vw;
-    }
-
-    tr, td, th {
-        display: block;
-    }
-
-    img {
-        max-width: 100%;
-    }
-
-    form {
-        max-width: 100%;
-    }
-
-} /* END */
-
-
 
 
 h1 {
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 
 p {
@@ -55,8 +34,14 @@ form h3 {
     text-align: center;
 }
 
-form input {
-    margin: 5px;
+form div {
+    text-align: center;
+}
+
+input {
+    display: inline-block;
+    margin: 8px;
+    width: 75%;
 }
 
 table {
@@ -67,3 +52,30 @@ table {
 th {
     background-color: silver;
 }
+
+
+@media screen and (max-device-width: 800px) {
+
+    h1 {
+        font-size: 8vw;
+    }
+
+    tr, td, th {
+        display: block;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    table, tbody {
+        display: block;
+
+    }
+
+
+} /* END */
