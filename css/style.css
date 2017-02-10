@@ -19,10 +19,12 @@ p {
     background-color: red;
 }
 
-body {
-    text-align: center;
-}
-
 header {
+    background-position: center;
     background-image: url(..\img\logo-iut.jpg);
 }
+
+form {
+    border: 2px solid black;
+}
+
