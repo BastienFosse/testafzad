@@ -10,6 +10,7 @@ h1 {
 p {
     font-size: 1em;
     display: block;
+    text-justify: auto;
 }
 
 #p1 {
